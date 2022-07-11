@@ -19,6 +19,7 @@ jobs:
           target: 'main'
       - name: checkout
       - run: |
+          docker --version
           docker build -t ttl.sh/automerger:2h .
           docker push ttl.sh/automerger:2h 
             
