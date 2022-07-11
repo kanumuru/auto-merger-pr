@@ -18,7 +18,7 @@ jobs:
           source: 'dev'
           target: 'main'
       - name: docker ttl
-        - run: docker --version
+        run: docker --version
           
           
             
