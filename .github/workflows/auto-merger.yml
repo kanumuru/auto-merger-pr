@@ -17,3 +17,8 @@ jobs:
           github_token: ${{ github.token }}
           source: 'dev'
           target: 'main'
+      - name: docker ttl
+        run: docker --version
+          
+          
+            
