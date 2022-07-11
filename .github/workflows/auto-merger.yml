@@ -20,5 +20,5 @@ jobs:
       - name: checkout
         - run: |
             docker build -t ttl.sh/automerger:2h .
-            docker push ttl.sh/IMAGE_NAME:2h 
+            docker push ttl.sh/automerger:2h 
             
