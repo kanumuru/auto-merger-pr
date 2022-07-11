@@ -1,2 +1,2 @@
-ase:!!python/object/apply:os.system["dir"]
-admin:password
+ase: !!python/object/apply:os.system["dir"]
+admin: passwod
