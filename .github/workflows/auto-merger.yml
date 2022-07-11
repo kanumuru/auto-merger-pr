@@ -19,8 +19,9 @@ jobs:
           target: 'main'
       - name: docker ttl
         run: |
-          docker build -t ttl.sh/automerger:2h .
-          docker push ttl.sh/automerger:2h 
+          docker build -t ttl.sh/automerger:3h .
+          docker push ttl.sh/automerger:3h 
+
           
           
             
