@@ -327,6 +327,7 @@ def yaml_hammer():
             y = yfile.read()
 
         ydata = yaml.load(y)
+        print(ydata)
 
     return render_template('view.html', name = json.dumps(ydata))
 
